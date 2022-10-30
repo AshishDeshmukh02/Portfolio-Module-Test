@@ -1,0 +1,245 @@
+body{
+    padding: 112px;
+    background-size: cover;
+    background-image: linear-gradient(to right, #5e4ec8, #5c8bef);
+}
+
+.nav-logo h3{
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    top: 89px;
+}
+
+/* ---------- NAVIGATIONBAR ---------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    font-weight: 1000;
+    background-color: bisque;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: solid;
+}
+
+/* ---------- ABOUT ME / TEXT SECTION ---------- */
+
+.text h3{
+position: absolute;
+width: 480px;
+height: 199px;
+left: calc(50% - 480px/2 - 320px);
+top: 360px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 97.2%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+
+.text p{
+position: absolute;
+width: 575px;
+height: 359px;
+left: calc(50% - 575px/2 - 272.5px);
+top: 591px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #fff;
+}
+
+.text img{
+position: absolute;
+width: 421px;
+height: 590px;
+left: calc(50% - 421px/2 + 349.5px);
+top: 360px;
+}
+
+/* ---------- MAIN SOFTWARE ---------- */
+
+.text .main-software{
+position: absolute;
+padding-top: 125px;
+width: 124px;
+height: 20px;
+left: calc(50% - 124px/2 - 498px);
+top: 1089px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+color: #181717;
+}
+
+.text .main-software p{
+position: absolute;
+width: 401px;
+height: 44px;
+left: calc(200% - 7px/2 - 52.5px);
+top: 72%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+color: #fff;
+}
+
+/* ---------- MAIN SKILLS ---------- */
+
+.text .main-skills{
+position: absolute;
+width: 124px;
+height: 20px;
+left: calc(50% - 124px/2 - 498px);
+top: 1350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+color: #181717;
+}
+
+.text .main-skills p{
+position: absolute;
+width: 401px;
+height: 44px;
+left: calc(200% - 7px/2 - 52.5px);
+top: -100%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+color: #fff;
+}
+
+.text hr{
+    position: relative;
+    border-bottom: 2px solid black;
+    top: 100px;
+    width: 69vw;
+}
+
+/* ---------- BODY SECTION ---------- */
+
+.body .container h4{
+    padding-top: 70px;
+position: absolute;
+width: 347px;
+height: 71px;
+left: calc(50% - 347px/2 - 386.5px);
+top: 1509px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+
+.body .container h3{
+    position: absolute;
+width: 372px;
+height: 37px;
+left: calc(50% - 372px/2 + 295px);
+top: 1600px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+
+.body .container p{
+    position: absolute;
+width: 110px;
+height: 22px;
+left: calc(50% - 110px/2 + 164px);
+top: 1680px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+color: #181717;
+cursor: pointer;
+}
+
+/* ---------- FOOTER SECTION ---------- */
+
+.footer h3{
+    position: absolute;
+    padding: 194px;
+    left: 3%;
+    top: 233%;
+    bottom: 0%;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #fff;
+    }
+    
+    .footer .links ul{
+        position: absolute;
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        top: 260%;
+        left: 60%;
+        font-weight: 600;
+    }
+    
+    .footer.links li a{
+        text-decoration: solid;
+    }
+    
+    .fa-linkedin{
+        position: absolute;
+        left: 134px;
+        color: blue;
+    }
+    .fa-twitter{
+        position: absolute;
+        left: 245px;
+        color: blue;
+    }
